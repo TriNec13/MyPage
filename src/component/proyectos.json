@@ -1,0 +1,26 @@
+[
+    {
+        "name":"Rick And Morty",
+        "image":"RaM.png",
+        "desc":"Este es un proyecto integrador el cual muestra cartas de una API de la tematica",
+        "deploy":"",
+        "linkdeply":"",
+        "github":"https://github.com/Ivan-Nicolas-Valero-FT-36B/RickAndMorty"
+    },
+    {
+        "name":"Proyecto Individual DOG",
+        "image":"PI.png",
+        "desc":"Este es un proyecto individual el cual muestra cartas de una API de la tematica mas otras funcionalidades extras",
+        "deploy":"",
+        "linkdeply":"",
+        "github":"https://github.com/Ivan-Nicolas-Valero-FT-36B/PI.Dogs"
+    },
+    {
+        "name":"CODEXPRESS",
+        "image":"CodeExpress.png",
+        "desc":"Este es un proyecto grupal el cual fue pensado en cumplir como un ecommersce de software, se lo realizo en un grupo de 6 personal con el fin de probarnos y culminar el bootcamp",
+        "deploy":"true",
+        "linkdeply":"https://ecommers-front-rust.vercel.app/home",
+        "github":"https://github.com/Tatterate/ecommerce-pf-11"
+    }
+]

@@ -1,0 +1,87 @@
+.flipswitch {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 150px;
+}
+
+.flipswitch .flipswitchSwitch {
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+.SwitchIMG {
+    width: 25%;
+    max-width: 18px;
+    height: auto;
+    margin: 0 0.5em;
+}
+
+.flipswitch input[type=checkbox] {
+    display: none;
+}
+
+.flipswitchLabel {
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px solid #4788dd;
+    border-radius: 50px;
+}
+
+.flipswitchInner {
+    width: 200%;
+    margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+
+.flipswitchInner:before,
+.flipswitchInner:after {
+    float: left;
+    width: 50%;
+    height: 23px;
+    padding: 0;
+    line-height: 23px;
+    font-size: 15px;
+    color: white;
+    font-family: Trebuchet, Arial, sans-serif;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.flipswitchInner:before {
+    content: "ON";
+    padding-left: 5px;
+    background-color: #FFFFFF;
+    color: #000000;
+    text-align: left;
+}
+
+.flipswitchInner:after {
+    content: "OFF";
+    padding-right: 6px;
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: right;
+}
+
+.flipswitchSwitch {
+    width: 22px;
+    margin: 0px;
+    background: #FFFFFF;
+    border: 2px solid #4788dd;
+    border-radius: 50px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 90px;
+    transition: all 0.3s ease-in 0s;
+}
+
+.flipswitchcb:checked+.flipswitchLabel .flipswitchInner {
+    margin-left: 0;
+}
+
+.flipswitchcb:checked+.flipswitchLabel .flipswitchSwitch {
+    right: 49px;
+}

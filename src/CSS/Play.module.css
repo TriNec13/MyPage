@@ -1,0 +1,16 @@
+.General {
+    background: none;
+}
+
+.General img {
+    width: 25%;
+    max-width: 50px;
+    height: auto;
+    margin: 0 0.5em;
+    cursor:pointer;
+}
+
+.General img:hover {
+    transform: scale(1.2);
+}
+
